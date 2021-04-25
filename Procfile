@@ -1,2 +1,1 @@
-worker: python feedUploader.py 
-web gunicorn feedUploader:main
+web: python feedUploader.py 

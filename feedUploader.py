@@ -60,7 +60,7 @@ reddit.validate_on_submit = True
 
 for i in range(n):#3 as floodsgate bot limits to 3
     #reddit.subreddit("india").submit(titles[i],url = links[i], flair_id = "8f105a84-7ea0-11e3-bba1-12313b0c91be") #The flair id is of non-political posts
-    reddit.subreddit("indiameymey").submit(titles[i],url = links[i], flair_id = "8f105a84-7ea0-11e3-bba1-12313b0c91be")
+    reddit.subreddit("indiameymey").submit(titles[i],url = links[i])
 
 print("Lagta hai ho gaya")
 

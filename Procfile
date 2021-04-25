@@ -1,1 +1,1 @@
-worker: feedUploader.py 
+worker:feedUploader.py 

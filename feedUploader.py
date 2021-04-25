@@ -10,7 +10,7 @@ feedlist = [
     "https://www.thehindu.com/news/national/tamil-nadu/feeder/default.rss"
     ]
 
-keywords = ["murder", "kill","rape"]   #Only show news with these links
+keywords = ["road","fish"]   #Only show news with these links
 
 titles = []
 links = []
@@ -60,8 +60,6 @@ reddit.validate_on_submit = True
 
 for i in range(n):#3 as floodsgate bot limits to 3
     #reddit.subreddit("india").submit(titles[i],url = links[i], flair_id = "8f105a84-7ea0-11e3-bba1-12313b0c91be") #The flair id is of non-political posts
-    reddit.subreddit("indiameymey").submit(titles[i],url = links[i])
-
-print("Lagta hai ho gaya")
+    reddit.subreddit("indiameymey").submit(titles[i],url = links[i])# My personal subreddit for posting random stuff
 
 
